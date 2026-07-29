@@ -1,0 +1,60 @@
+name: Build brand assets
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - "v*"
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install system dependencies
+        run: sudo apt-get update && sudo apt-get install -y inkscape
+
+      - name: Install build dependencies
+        run: |
+          npm ci
+          python -m pip install -r requirements.txt
+
+      - name: Build assets
+        run: python scripts/build_assets.py
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: extensionmesh-brand-assets
+          path: dist/
+          if-no-files-found: error
+
+      - name: Attach assets to tagged release
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/ExtensionMesh-Brand-Guide-v0.1.pdf
+            dist/extensionmesh-assets-v0.1.zip
+            dist/extensionmesh-logo-preview.png
