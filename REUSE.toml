@@ -1,0 +1,27 @@
+version = 1
+
+[[annotations]]
+path = [
+  ".github/workflows/**",
+  ".gitignore",
+  "brand-guide/source/**",
+  "package.json",
+  "package-lock.json",
+  "requirements.txt",
+  "scripts/**",
+  "tokens/**",
+]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 ExtensionMesh contributors"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = [
+  "LICENSE.md",
+  "README.md",
+  "REUSE.toml",
+  "logo/**",
+]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 ExtensionMesh contributors"
+SPDX-License-Identifier = "CC-BY-4.0"
