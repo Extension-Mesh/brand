@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 1600 1000" role="img" aria-labelledby="title">
+  <title id="title">ExtensionMesh logo kit v0.2 preview</title>
+  <defs>
+    <g id="mark-navy">
+      <path fill="#0F1B2E" d="M24 8C34 8 40 14 40 24V31C40 42 43 49 51 55C56 59 60 62 64 62C68 62 72 59 77 55C85 49 88 42 88 31V24C88 14 94 8 104 8C114 8 120 14 120 24V30C120 40 113 46 101 47C88 48 83 52 82 61C81 70 86 75 98 76C112 77 120 85 120 97V104C120 114 114 120 104 120H97C87 120 81 114 80 103C79 91 78 83 76 78C70 74 58 74 52 78C50 83 49 91 48 103C47 114 41 120 31 120H24C14 120 8 114 8 104V97C8 85 16 77 30 76C42 75 47 70 46 61C45 52 40 48 27 47C15 46 8 40 8 30V24C8 14 14 8 24 8Z"/>
+      <g fill="#0F1B2E">
+        <rect x="8" y="8" width="32" height="32" rx="10"/>
+        <rect x="8" y="88" width="32" height="32" rx="10"/>
+        <rect x="88" y="8" width="32" height="32" rx="10"/>
+        <rect x="88" y="88" width="32" height="32" rx="10"/>
+      </g>
+    </g>
+    <g id="mark-color">
+      <use xlink:href="#mark-navy"/>
+      <rect x="88" y="8" width="32" height="32" rx="10" fill="#00AFC1"/>
+    </g>
+    <g id="mark-white">
+      <path fill="#F7F7F4" d="M24 8C34 8 40 14 40 24V31C40 42 43 49 51 55C56 59 60 62 64 62C68 62 72 59 77 55C85 49 88 42 88 31V24C88 14 94 8 104 8C114 8 120 14 120 24V30C120 40 113 46 101 47C88 48 83 52 82 61C81 70 86 75 98 76C112 77 120 85 120 97V104C120 114 114 120 104 120H97C87 120 81 114 80 103C79 91 78 83 76 78C70 74 58 74 52 78C50 83 49 91 48 103C47 114 41 120 31 120H24C14 120 8 114 8 104V97C8 85 16 77 30 76C42 75 47 70 46 61C45 52 40 48 27 47C15 46 8 40 8 30V24C8 14 14 8 24 8Z"/>
+      <g fill="#F7F7F4">
+        <rect x="8" y="8" width="32" height="32" rx="10"/>
+        <rect x="8" y="88" width="32" height="32" rx="10"/>
+        <rect x="88" y="8" width="32" height="32" rx="10"/>
+        <rect x="88" y="88" width="32" height="32" rx="10"/>
+      </g>
+    </g>
+    <g id="mark-reversed">
+      <use xlink:href="#mark-white"/>
+      <rect x="88" y="8" width="32" height="32" rx="10" fill="#00AFC1"/>
+    </g>
+    <style>
+      .ui { font-family: "IBM Plex Sans", Arial, sans-serif; }
+      .mono { font-family: "IBM Plex Mono Medium", monospace; }
+      .word { font-family: "Geologica Thin Roman", Geologica, Arial, sans-serif; font-weight: 500; letter-spacing: -0.02em; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="1000" fill="#F7F7F4"/>
+  <text x="72" y="70" fill="#00AFC1" class="mono" font-size="14" letter-spacing="2">EXTENSIONMESH · IDENTITY V0.2</text>
+  <text x="72" y="113" fill="#0F1B2E" class="ui" font-size="34" font-weight="600">Connected Modules</text>
+  <text x="1180" y="76" fill="#667286" class="ui" font-size="17">Refined B1 wordmark</text>
+  <text x="1180" y="105" fill="#667286" class="ui" font-size="17">Geologica Medium · outlined master</text>
+  <line x1="72" y1="142" x2="1528" y2="142" stroke="#D9DEE5"/>
+
+  <text x="72" y="192" fill="#667286" class="mono" font-size="13">PRIMARY · LIGHT</text>
+  <g transform="translate(82 250) scale(1.05)"><use xlink:href="#mark-color"/></g>
+  <text x="252" y="350" fill="#0F1B2E" class="word" font-size="102">Extension<tspan dx="-0.8">M</tspan>esh</text>
+  <text x="256" y="397" fill="#667286" class="ui" font-size="21">Open extension distribution.</text>
+
+  <rect y="440" width="1600" height="252" fill="#0F1B2E"/>
+  <text x="72" y="485" fill="#9BE9EF" class="mono" font-size="13">PRIMARY · DARK</text>
+  <g transform="translate(82 526) scale(.84)"><use xlink:href="#mark-reversed"/></g>
+  <text x="220" y="608" fill="#F7F7F4" class="word" font-size="82">Extension<tspan dx="-0.7">M</tspan>esh</text>
+  <text x="224" y="651" fill="#B9C3D0" class="ui" font-size="18">Conventional M. No connector. No separator.</text>
+
+  <text x="72" y="755" fill="#667286" class="mono" font-size="13">MARK</text>
+  <g transform="translate(78 788) scale(.82)"><use xlink:href="#mark-color"/></g>
+  <rect x="224" y="778" width="126" height="126" rx="26" fill="#0F1B2E"/>
+  <g transform="translate(233 787) scale(.84)"><use xlink:href="#mark-reversed"/></g>
+
+  <text x="430" y="755" fill="#667286" class="mono" font-size="13">WORDMARK</text>
+  <text x="430" y="830" fill="#0F1B2E" class="word" font-size="53">Extension<tspan dx="-0.5">M</tspan>esh</text>
+  <text x="430" y="876" fill="#667286" class="ui" font-size="15">Use independently when the mark is already present.</text>
+
+  <text x="1000" y="755" fill="#667286" class="mono" font-size="13">CORE COLORS</text>
+  <rect x="1000" y="790" width="148" height="72" rx="14" fill="#0F1B2E"/>
+  <rect x="1168" y="790" width="148" height="72" rx="14" fill="#00AFC1"/>
+  <rect x="1336" y="790" width="148" height="72" rx="14" fill="#F7F7F4" stroke="#C9CED5" stroke-width="2"/>
+  <text x="1012" y="895" fill="#667286" class="mono" font-size="13">#0F1B2E</text>
+  <text x="1180" y="895" fill="#667286" class="mono" font-size="13">#00AFC1</text>
+  <text x="1348" y="895" fill="#667286" class="mono" font-size="13">#F7F7F4</text>
+
+  <line x1="72" y1="944" x2="1528" y2="944" stroke="#D9DEE5"/>
+  <text x="72" y="974" fill="#667286" class="ui" font-size="13">Production SVGs contain paths only. Editable source files are included separately.</text>
+</svg>
