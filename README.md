@@ -4,6 +4,12 @@
 
 <p align="center"><strong>Open extension distribution.</strong></p>
 
+<p align="center">
+  <a href="https://github.com/Extension-Mesh/brand/actions/workflows/build-assets.yml">
+    <img src="https://github.com/Extension-Mesh/brand/actions/workflows/build-assets.yml/badge.svg" alt="Build brand assets">
+  </a>
+</p>
+
 This repository is the canonical source for the ExtensionMesh visual identity.
 It contains production-ready logos, editable sources, design tokens and the
 sources used to build downloadable brand packages.
