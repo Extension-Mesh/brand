@@ -68,5 +68,8 @@ implementations clearly and avoid universal claims or ideological framing.
 
 ## Licensing
 
-Reuse terms for visual assets and build tooling will be finalized separately.
-Until explicit license files are added, normal copyright rules apply.
+Build scripts and design tokens are licensed under MIT. Logo assets, brand
+guides and generated creative assets are licensed under CC BY 4.0.
+
+See [LICENSE.md](LICENSE.md) for the exact path mapping, attribution guidance
+and the no-endorsement notice.
