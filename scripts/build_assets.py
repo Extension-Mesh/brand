@@ -82,7 +82,9 @@ def build_package(guide: Path) -> None:
     shutil.copytree(ROOT / "logo" / "production", PACKAGE / "logo")
     shutil.copytree(RASTER, PACKAGE / "png")
     shutil.copytree(ROOT / "tokens", PACKAGE / "tokens")
+    shutil.copytree(ROOT / "LICENSES", PACKAGE / "LICENSES")
     shutil.copy2(guide, PACKAGE / guide.name)
+    shutil.copy2(ROOT / "LICENSE.md", PACKAGE / "LICENSE.md")
     shutil.copy2(ROOT / "README.md", PACKAGE / "README.md")
 
     DIST.mkdir(parents=True, exist_ok=True)
