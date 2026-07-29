@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">ExtensionMesh mark</title>
+  <path fill="#0F1B2E" d="M24 8C34 8 40 14 40 24V31C40 42 43 49 51 55C56 59 60 62 64 62C68 62 72 59 77 55C85 49 88 42 88 31V24C88 14 94 8 104 8C114 8 120 14 120 24V30C120 40 113 46 101 47C88 48 83 52 82 61C81 70 86 75 98 76C112 77 120 85 120 97V104C120 114 114 120 104 120H97C87 120 81 114 80 103C79 91 78 83 76 78C70 74 58 74 52 78C50 83 49 91 48 103C47 114 41 120 31 120H24C14 120 8 114 8 104V97C8 85 16 77 30 76C42 75 47 70 46 61C45 52 40 48 27 47C15 46 8 40 8 30V24C8 14 14 8 24 8Z"/>
+  <g fill="#0F1B2E">
+    <rect x="8" y="8" width="32" height="32" rx="10"/>
+    <rect x="8" y="88" width="32" height="32" rx="10"/>
+    <rect x="88" y="8" width="32" height="32" rx="10"/>
+    <rect x="88" y="88" width="32" height="32" rx="10"/>
+  </g>
+  <rect x="88" y="8" width="32" height="32" rx="10" fill="#00AFC1"/>
+</svg>
