@@ -1,0 +1,77 @@
+:root {
+  /* Brand colors */
+  --em-color-navy: #0f1b2e;
+  --em-color-teal: #00afc1;
+  --em-color-warm: #f7f7f4;
+  --em-color-surface: #ffffff;
+  --em-color-slate: #667286;
+  --em-color-mist: #e9edf0;
+  --em-color-line: #d9dee5;
+  --em-color-pale-teal: #e4f8fa;
+
+  /* Typography */
+  --em-font-display: "Geologica", sans-serif;
+  --em-font-ui: "IBM Plex Sans", sans-serif;
+  --em-font-mono: "IBM Plex Mono", monospace;
+
+  --em-text-display-size: 3.5rem;
+  --em-text-display-line: 1.143;
+  --em-text-h1-size: 2.5rem;
+  --em-text-h1-line: 1.2;
+  --em-text-h2-size: 1.75rem;
+  --em-text-h2-line: 1.286;
+  --em-text-body-size: 1rem;
+  --em-text-body-line: 1.625;
+  --em-text-label-size: 0.8125rem;
+  --em-text-label-line: 1.385;
+
+  /* Spacing */
+  --em-space-1: 0.5rem;
+  --em-space-2: 1rem;
+  --em-space-3: 1.5rem;
+  --em-space-4: 2rem;
+  --em-space-5: 3rem;
+  --em-space-6: 4rem;
+  --em-space-7: 6rem;
+
+  /* Geometry */
+  --em-radius-small: 0.625rem;
+  --em-radius-medium: 1rem;
+  --em-radius-large: 1.5rem;
+  --em-border: 1px solid var(--em-color-line);
+
+  /* Layout */
+  --em-content-width: 75rem;
+  --em-reading-width: 45rem;
+  --em-page-gutter: clamp(1.25rem, 4vw, 4rem);
+}
+
+html {
+  color: var(--em-color-navy);
+  background: var(--em-color-warm);
+  font-family: var(--em-font-ui);
+  font-size: 100%;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-family: var(--em-font-display);
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+
+code,
+kbd,
+pre,
+.em-label {
+  font-family: var(--em-font-mono);
+}
+
+.em-label {
+  font-size: var(--em-text-label-size);
+  line-height: var(--em-text-label-line);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
